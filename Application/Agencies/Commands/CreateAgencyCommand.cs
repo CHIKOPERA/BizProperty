@@ -14,7 +14,8 @@ namespace Application.Agencies.Commands
     public class CreateAgentCommand : Agency ,IRequest<Agency>
     {
     }
-    //I should be good @ this
+    //I should be good @ this,
+    //I hear you son
     public class CreateAgencyCommandHandler : IRequestHandler<CreateAgentCommand, Agency>
     {
         private readonly IApplicationDbContext _dbContent;
